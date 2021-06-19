@@ -1,0 +1,10 @@
+@startuml
+
+Class Sol41 {
+main()
+readFile()
+sortPeople()
+outputPeople()
+}
+
+@enduml
