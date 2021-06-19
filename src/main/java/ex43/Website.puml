@@ -1,0 +1,9 @@
+@startuml
+Folder website {
+    Folder name {
+        File index.html
+        Folder js
+        Folder css
+    }
+}
+@enduml

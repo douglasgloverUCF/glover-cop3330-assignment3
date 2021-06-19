@@ -1,0 +1,14 @@
+@startuml
+Class Website {
+    generateSite()
+    generateIndex()
+    generateHtml()
+    generateFolder()
+}
+Class Sol43 {
+    main()
+    promptString()
+    promptBoolean()
+    getFolders()
+}
+@enduml
