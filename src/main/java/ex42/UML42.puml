@@ -1,0 +1,16 @@
+@startuml
+
+Class Sol42 {
+    main()
+    readFile()
+    makeTable()
+    outputMessage()
+}
+Class Person {
+        String fName
+        String lName
+        int salary
+}
+Person -- Sol42
+
+@enduml
