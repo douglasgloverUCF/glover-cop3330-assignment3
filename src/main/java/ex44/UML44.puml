@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+Class Sol44 {
+    main()
+    getData()
+    getProduct()
+    printData()
+}
+Class Product {
+    String name
+    double price
+    int quantity
+}
+Product -- Sol44
+@enduml
