@@ -1,0 +1,14 @@
+@startuml
+Class Sol46 {
+    main()
+    getInput()
+    countWords()
+    getHistogram()
+    output()
+}
+Class WordData {
+    String word;
+    int wordCount;
+}
+WordData -- Sol46
+@enduml
